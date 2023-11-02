@@ -1,0 +1,64 @@
+
+   /* this allows for smooth scrolling when link is clicked*/
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+
+
+  body{
+    width: 70%;
+text-align: left;
+margin: 0 auto;
+  }
+
+
+  a{
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    margin-top: 3rem;
+   
+  }
+
+
+h1{
+    color: lightslategrey;
+   font-size:2rem ;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 100%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    padding: 2rem; 
+  }
+
+
+  
+  .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  
+  }
+  code{
+    display: block;
+    background-color: rgb(226, 226, 223);
+    width: 40%;
+    height: 5rem;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+ 
