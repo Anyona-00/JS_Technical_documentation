@@ -14,10 +14,6 @@
 <nav id="navbar">
     <header> <h1> JS Documentation</h1></header>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d8f493e3cb750845190235bbbb5d08d9db61202b
 <Div id="bar">
     <div class="items">
 <a href="#Variables" class="nav-link">Variables</a>
@@ -35,10 +31,6 @@
     JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects;</P>
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d8f493e3cb750845190235bbbb5d08d9db61202b
       <section class="main-section" id="Variables">
         <header><h2> Variables</h2></header>
         <p>
@@ -161,5 +153,21 @@ if ((x = y)) { /* statements here */ }</code>
 
 
     </main>
+
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const navLinks = document.querySelectorAll(".nav-link");
+        
+        navLinks.forEach(link => {
+          link.addEventListener("click", function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            const targetSection = document.getElementById(targetId);
+            targetSection.scrollIntoView({ behavior: "smooth" });
+          });
+        });
+      });
+    </script>
   </body>
 </html>
