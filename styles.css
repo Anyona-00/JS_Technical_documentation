@@ -1,5 +1,10 @@
+/*import font*/
 
-   /* this allows for smooth scrolling when link is clicked*/
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Inter+Tight:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+  
+  
+  /* this allows for smooth scrolling when link is clicked*/
 @media (prefers-reduced-motion: no-preference) {
     * {
       scroll-behavior: smooth;
@@ -12,8 +17,13 @@
     width: 42rem;
 text-align: left;
 margin-left: 18rem;
+font-family: 'Inconsolata', monospace;
+font-family: 'Inter Tight', sans-serif;
+font-family: 'Poppins', sans-serif;
   }
 
+
+  /*nav-links*/
 
   a{
     text-decoration: none;
@@ -22,11 +32,14 @@ margin-left: 18rem;
    
   }
 
-
+/*heading*/
 h1{
     color: lightslategrey;
    font-size:2rem ;
+   margin-left: -1.4rem;
 }
+
+/*Navbar*/
 #navbar {
     position: fixed;
     top: 0;
@@ -41,17 +54,18 @@ h1{
     padding: 2rem; 
   }
 
-
-  
   .items {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 
   
   }
+
+
+  /*code tag*/
   code{
     display: block;
     background-color: rgb(226, 226, 223);
